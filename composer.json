@@ -1,0 +1,35 @@
+{
+  "name": "bitlimited/consul",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [],
+  "homepage": "https://bitms.ru",
+  "authors": [
+    {
+      "name": "Viktor Nazarov",
+      "email": "bitlimited.dev@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.4",
+    "ext-json": "^7.4",
+    "ext-curl": "^7.4",
+    "ext-posix": "^7.4",
+    "ext-apcu": "^5.1",
+    "tarantool/client": "^0.8.1",
+    "rybakit/msgpack": "^0.7.0",
+    "indigerd/php-consul-sdk": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bitlimited\\Consul\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.5.3-dev"
+    }
+  }
+}
