@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Bitlimited\Consul\Method;
 
 use indigerd\consul\models\Service;
