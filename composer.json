@@ -26,10 +26,5 @@
     "psr-4": {
       "Bitlimited\\Consul\\": "src/"
     }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "0.5.4"
-    }
   }
 }
